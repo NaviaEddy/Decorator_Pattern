@@ -1,0 +1,23 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-Decorator-7868.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"D:\C++ y cursos\Patrones\Decorator\Decorator\Intermediate\Build\Win64\DecoratorEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+"D:\C++ y cursos\Patrones\Decorator\Decorator\Intermediate\Build\Win64\UE4Editor\Development\Decorator\Decorator.cpp.obj"
+"D:\C++ y cursos\Patrones\Decorator\Decorator\Intermediate\Build\Win64\UE4Editor\Development\Decorator\DecoratorGameModeBase.cpp.obj"
+"D:\C++ y cursos\Patrones\Decorator\Decorator\Intermediate\Build\Win64\UE4Editor\Development\Decorator\Decorator_.cpp.obj"
+"D:\C++ y cursos\Patrones\Decorator\Decorator\Intermediate\Build\Win64\UE4Editor\Development\Decorator\Enemy.cpp.obj"
+"D:\C++ y cursos\Patrones\Decorator\Decorator\Intermediate\Build\Win64\UE4Editor\Development\Decorator\MeleeEnemy.cpp.obj"
+"D:\C++ y cursos\Patrones\Decorator\Decorator\Intermediate\Build\Win64\UE4Editor\Development\Decorator\ProjectileEnemy.cpp.obj"
+"D:\C++ y cursos\Patrones\Decorator\Decorator\Intermediate\Build\Win64\UE4Editor\Development\Decorator\Decorator.init.gen.cpp.obj"
+"D:\C++ y cursos\Patrones\Decorator\Decorator\Intermediate\Build\Win64\UE4Editor\Development\Decorator\DecoratorGameModeBase.gen.cpp.obj"
+"D:\C++ y cursos\Patrones\Decorator\Decorator\Intermediate\Build\Win64\UE4Editor\Development\Decorator\Decorator_.gen.cpp.obj"
+"D:\C++ y cursos\Patrones\Decorator\Decorator\Intermediate\Build\Win64\UE4Editor\Development\Decorator\Enemy.gen.cpp.obj"
+"D:\C++ y cursos\Patrones\Decorator\Decorator\Intermediate\Build\Win64\UE4Editor\Development\Decorator\MeleeEnemy.gen.cpp.obj"
+"D:\C++ y cursos\Patrones\Decorator\Decorator\Intermediate\Build\Win64\UE4Editor\Development\Decorator\ProjectileEnemy.gen.cpp.obj"
+"D:\C++ y cursos\Patrones\Decorator\Decorator\Intermediate\Build\Win64\UE4Editor\Development\Decorator\Default.rc2.res"
+/OUT:"D:\C++ y cursos\Patrones\Decorator\Decorator\Intermediate\Build\Win64\UE4Editor\Development\Decorator\UE4Editor-Decorator-7868.lib"

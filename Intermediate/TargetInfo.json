@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "Decorator",
+			"Path": "D:\\C++ y cursos\\Patrones\\Decorator\\Decorator\\Source\\Decorator.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "DecoratorEditor",
+			"Path": "D:\\C++ y cursos\\Patrones\\Decorator\\Decorator\\Source\\DecoratorEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

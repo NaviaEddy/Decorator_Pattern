@@ -1,0 +1,17 @@
+D:\C++ y cursos\Patrones\Decorator\Decorator\Intermediate\Build\Win64\UE4Editor\Development\Decorator\Definitions.Decorator.h
+D:\C++ y cursos\Patrones\Decorator\Decorator\Source\Decorator\DecoratorGameModeBase.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/GameModeBase.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\Engine/ServerStatReplicator.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ServerStatReplicator.generated.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameModeBase.generated.h
+D:\C++ y cursos\Patrones\Decorator\Decorator\Source\Decorator\Enemy.h
+D:\C++ y cursos\Patrones\Decorator\Decorator\Intermediate\Build\Win64\UE4Editor\Inc\Decorator\Enemy.generated.h
+D:\C++ y cursos\Patrones\Decorator\Decorator\Intermediate\Build\Win64\UE4Editor\Inc\Decorator\DecoratorGameModeBase.generated.h
+D:\C++ y cursos\Patrones\Decorator\Decorator\Source\Decorator\ConcreteEnemy.h
+D:\C++ y cursos\Patrones\Decorator\Decorator\Intermediate\Build\Win64\UE4Editor\Inc\Decorator\ConcreteEnemy.generated.h
+D:\C++ y cursos\Patrones\Decorator\Decorator\Source\Decorator\MeleeEnemy.h
+D:\C++ y cursos\Patrones\Decorator\Decorator\Source\Decorator\Decorator_.h
+D:\C++ y cursos\Patrones\Decorator\Decorator\Intermediate\Build\Win64\UE4Editor\Inc\Decorator\Decorator_.generated.h
+D:\C++ y cursos\Patrones\Decorator\Decorator\Intermediate\Build\Win64\UE4Editor\Inc\Decorator\MeleeEnemy.generated.h
+D:\C++ y cursos\Patrones\Decorator\Decorator\Source\Decorator\ProjectileEnemy.h
+D:\C++ y cursos\Patrones\Decorator\Decorator\Intermediate\Build\Win64\UE4Editor\Inc\Decorator\ProjectileEnemy.generated.h

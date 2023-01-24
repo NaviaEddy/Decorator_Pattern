@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\Decorator.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{8FF632E0-7DBF-4F23-BE26-33E490090178}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Decorator.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\DecoratorEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{B83C4F61-86C7-4964-8C8D-056A135AC18C}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\Decorator">
+      <UniqueIdentifier>{5DD95D07-2490-45FB-9788-F78B576FC122}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Decorator\ConcreteEnemy.cpp">
+      <Filter>Source\Decorator</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Decorator\ConcreteEnemy.h">
+      <Filter>Source\Decorator</Filter>
+    </ClInclude>
+    <None Include="..\..\Source\Decorator\Decorator.Build.cs">
+      <Filter>Source\Decorator</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\Decorator\Decorator.cpp">
+      <Filter>Source\Decorator</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Decorator\Decorator.h">
+      <Filter>Source\Decorator</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Decorator\DecoratorGameModeBase.cpp">
+      <Filter>Source\Decorator</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Decorator\DecoratorGameModeBase.h">
+      <Filter>Source\Decorator</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Decorator\Decorator_.cpp">
+      <Filter>Source\Decorator</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Decorator\Decorator_.h">
+      <Filter>Source\Decorator</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Decorator\Enemy.cpp">
+      <Filter>Source\Decorator</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Decorator\Enemy.h">
+      <Filter>Source\Decorator</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Decorator\MeleeEnemy.cpp">
+      <Filter>Source\Decorator</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Decorator\MeleeEnemy.h">
+      <Filter>Source\Decorator</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Decorator\ProjectileEnemy.cpp">
+      <Filter>Source\Decorator</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Decorator\ProjectileEnemy.h">
+      <Filter>Source\Decorator</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
