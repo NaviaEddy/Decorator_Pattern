@@ -19,7 +19,7 @@ public:
     ADecoratorGameModeBase();
 
 public:
-    //The main Enemy Actor
+    //El Actor Enemigo principal
     IEnemy* Enemy;
 
 protected:

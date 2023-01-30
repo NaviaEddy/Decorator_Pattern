@@ -16,36 +16,34 @@ ADecoratorGameModeBase::ADecoratorGameModeBase()
 
 void ADecoratorGameModeBase::BeginPlay()
 {
-	Super::BeginPlay();
+    Super::BeginPlay();
 
-    //Spawn a Concrete Enemy
+    //Engendrar un enemigo concreto
     AConcreteEnemy* ConcreteEnemy = GetWorld()->SpawnActor<AConcreteEnemy>(AConcreteEnemy::StaticClass());
 
-    //Spawn a Melee Enemy and set its Enemy to the Concrete one
+    //Engendra un enemigo cuerpo a cuerpo y fija su enemigo en el concreto
     AMeleeEnemy* MeleeEnemy = GetWorld()->SpawnActor <AMeleeEnemy>(AMeleeEnemy::StaticClass());
     MeleeEnemy->SetEnemy(ConcreteEnemy);
-    
-    //Spawn a Projectile Enemy and set its Enemy to the Melee one
+
+    //Crea un enemigo proyectil y establece su enemigo como cuerpo a cuerpo.
     AProjectileEnemy* ProjectileEnemy = GetWorld()->SpawnActor <AProjectileEnemy>(AProjectileEnemy::StaticClass());
     ProjectileEnemy->SetEnemy(MeleeEnemy);
 
-    GEngine->AddOnScreenDebugMessage(-1, 15.f, FColor::Yellow, FString::Printf(TEXT("Melee Enemies are on the horizon")));
+    GEngine->AddOnScreenDebugMessage(-1, 15.f, FColor::Yellow, FString::Printf(TEXT("Enemigos cuerpo a cuerpo en el horizonte")));
     Enemy = MeleeEnemy;
     Enemy->Fight();
-    GEngine->AddOnScreenDebugMessage(-1, 15.f, FColor::Yellow, FString::Printf(TEXT("Melee Enemies cause %i damage."), Enemy->GetDamage()));
+    GEngine->AddOnScreenDebugMessage(-1, 15.f, FColor::Yellow, FString::Printf(TEXT("Los enemigos cuerpo a cuerpo causan %i de dano."), Enemy->GetDamage()));
     Enemy->Die();
 
-    GEngine->AddOnScreenDebugMessage(-1, 15.f, FColor::Yellow, FString::Printf(TEXT("Enemies are now armed with guns")));
+    GEngine->AddOnScreenDebugMessage(-1, 15.f, FColor::Yellow, FString::Printf(TEXT("Los enemigos están ahora armados con pistolas")));
     Enemy = ProjectileEnemy;
     Enemy->Fight();
-    GEngine->AddOnScreenDebugMessage(-1, 15.f, FColor::Yellow, FString::Printf(TEXT("Projectile Enemies cause %i damage."), Enemy->GetDamage()));
+    GEngine->AddOnScreenDebugMessage(-1, 15.f, FColor::Yellow, FString::Printf(TEXT("Los enemigos de proyectil causan %i de dano."), Enemy->GetDamage()));
     Enemy->Die();
-
 
 }
 
 void ADecoratorGameModeBase::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
-
 }

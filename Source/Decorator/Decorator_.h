@@ -15,20 +15,25 @@ public:
 	// Sets default values for this actor's properties
 	ADecorator_();
 
+	//El decorador del enemigo, que debe ser un Enemy
 	void SetEnemy(AActor* _Enemy);
 
 private:
 
+	//Establecer el Enemy Actor
 	IEnemy* Enemy;
 
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
 
+	//Empezar a luchar
 	void Fight() override;
 
+	//Devuelve cuánto daño ha recibido este enemigo
 	int GetDamage() override;
 
+	//Mata a este enemigo
 	void Die() override;
 
 public:	

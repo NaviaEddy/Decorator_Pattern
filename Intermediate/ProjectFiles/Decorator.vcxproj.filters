@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\Decorator.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{8FF632E0-7DBF-4F23-BE26-33E490090178}</UniqueIdentifier>
+      <UniqueIdentifier>{691BF644-71AD-4F58-A50D-0333F660164A}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\Decorator.Target.cs">
       <Filter>Source</Filter>
@@ -11,8 +11,10 @@
     <None Include="..\..\Source\DecoratorEditor.Target.cs">
       <Filter>Source</Filter>
     </None>
+    <None Include="..\..\.gitattributes" />
+    <None Include="..\..\.gitignore" />
     <Filter Include="Config">
-      <UniqueIdentifier>{B83C4F61-86C7-4964-8C8D-056A135AC18C}</UniqueIdentifier>
+      <UniqueIdentifier>{02A9EEDF-73F7-4552-BDE2-18A8070C01A9}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -24,7 +26,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\Decorator">
-      <UniqueIdentifier>{5DD95D07-2490-45FB-9788-F78B576FC122}</UniqueIdentifier>
+      <UniqueIdentifier>{5F85D907-9275-451E-99E9-7FBA9CFE92EE}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\Decorator\ConcreteEnemy.cpp">
       <Filter>Source\Decorator</Filter>

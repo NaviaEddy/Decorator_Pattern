@@ -5,23 +5,23 @@
 
 void AMeleeEnemy::Fight()
 {
-	//Call the parent Fight function and log a message
+	//Llamar a la función principal Fight y registrar un mensaje
 	Super::Fight();
-	GEngine->AddOnScreenDebugMessage(-1, 15.f, FColor::Yellow, FString::Printf(TEXT("The enemy throws heavy punches")));
+	GEngine->AddOnScreenDebugMessage(-1, 15.f, FColor::Yellow, FString::Printf(TEXT("El enemigo lanza fuertes golpes")));
 
 }
 
 int AMeleeEnemy::GetDamage()
 {
+	//Devuelve el Daño base + 5
 	return Super::GetDamage() + 5;
-
 }
 
 void AMeleeEnemy::Die()
 {
-	// Call the parent Die function and log a message
+	//Llamar a la función matriz Die y registrar un mensaje
 	Super::Die();
-	GEngine->AddOnScreenDebugMessage(-1, 15.f, FColor::Yellow, FString::Printf(TEXT("The enemy writhes in agony and disintegrates")));
+	GEngine->AddOnScreenDebugMessage(-1, 15.f, FColor::Yellow, FString::Printf(TEXT("El enemigo se retuerce en agonía y se desintegra")));
 
 }
 

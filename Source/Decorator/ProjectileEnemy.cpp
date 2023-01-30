@@ -5,23 +5,23 @@
 
 void AProjectileEnemy::Fight()
 {
-	//Call the parent Fight function and log a message
+	//Llamar a la función principal Fight y registrar un mensaje
 	Super::Fight();
-	GEngine->AddOnScreenDebugMessage(-1, 15.f, FColor::Yellow, FString::Printf(TEXT("The enemy blows a kiss and fires a gun")));
+	GEngine->AddOnScreenDebugMessage(-1, 15.f, FColor::Yellow, FString::Printf(TEXT("El enemigo lanza un beso y dispara un arma")));
 
 }
 
 int AProjectileEnemy::GetDamage()
 {
-	//Returns the base Damage + 95
+	//Devuelve el Daño base + 95
 	return Super::GetDamage() + 95;
 
 }
 
 void AProjectileEnemy::Die()
 {
-	//Call the parent Die function and log a message
+	//Devuelve cuánto daño ha recibido este enemigo
 	Super::Die();
-	GEngine->AddOnScreenDebugMessage(-1, 15.f, FColor::Yellow, FString::Printf(TEXT("The enemy writhes in agony and disintegrates even more")));
+	GEngine->AddOnScreenDebugMessage(-1, 15.f, FColor::Yellow, FString::Printf(TEXT("El enemigo se retuerce en agonía y se desintegra aun mas")));
 
 }

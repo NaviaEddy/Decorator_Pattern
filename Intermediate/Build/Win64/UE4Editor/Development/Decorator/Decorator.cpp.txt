@@ -1,0 +1,2 @@
+D:\C++ y cursos\Patrones\Decorator\Decorator\Intermediate\Build\Win64\UE4Editor\Development\Decorator\Definitions.Decorator.h
+D:\C++ y cursos\Patrones\Decorator\Decorator\Source\Decorator\Decorator.h

@@ -13,7 +13,9 @@ ADecorator_::ADecorator_()
 
 void ADecorator_::SetEnemy(AActor* _Enemy)
 {
+	//Lanza el actor pasado y fija al enemigo
 	Enemy = Cast<IEnemy>(_Enemy);
+
 	if (!Enemy) { //Lanzamos un error si la conversion falla
 		GEngine->AddOnScreenDebugMessage(-1, 15.f, FColor::Red, TEXT("¡Elenco no válido! Consulte Registro de salida para obtener más detalles."));
 		UE_LOG(LogTemp, Error, TEXT("SetEnemy(): ¡El actor no es un Enemy! ¿Está seguro de que el actor implementa esa interfaz?"));

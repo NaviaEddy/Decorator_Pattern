@@ -13,16 +13,21 @@ UCLASS()
 class DECORATOR_API AMeleeEnemy : public ADecorator_
 {
 	GENERATED_BODY()
-	
 
 public:
-    //Start Fighting
+
+/*
+ Los decoradores concretos añaden responsabilidades al componente
+ (pueden ampliar el estado del componente)
+*/
+
+    //Empezar a luchar
     void Fight() override;
 
-    //Returns how much damage this enemy has taken
+    //Devuelve cuánto daño ha recibido este enemigo
     int GetDamage() override;
 
-    //Kill this enemy
+    //Mata a este enemigo
     void Die() override;
 
 
