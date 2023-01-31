@@ -13,7 +13,7 @@ class DECORATOR_API ADecorator_ : public AActor, public IEnemy
 	
 public:	
 	// Sets default values for this actor's properties
-	ADecorator_();
+	ADecorator_(); //Decorador
 
 	//El decorador del enemigo, que debe ser un Enemy
 	void SetEnemy(AActor* _Enemy);

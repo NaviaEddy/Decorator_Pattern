@@ -13,15 +13,15 @@ class DECORATOR_API AConcreteEnemy : public AActor, public IEnemy
 	
 public:	
 	// Sets default values for this actor's properties
-	AConcreteEnemy();
+	AConcreteEnemy(); //Enemigo Concreto
 
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
 
-	void Fight() override {}
-	int GetDamage() override { return 0; }
-	void Die() override {}
+	void Fight() override {} //Lucha
+	int GetDamage() override { return 0; } //Obtener daño
+	void Die() override {} //Muerte
 
 public:	
 	// Called every frame
