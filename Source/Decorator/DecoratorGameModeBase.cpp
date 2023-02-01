@@ -2,9 +2,9 @@
 
 
 #include "DecoratorGameModeBase.h"
-#include "ConcreteEnemy.h"
-#include "MeleeEnemy.h"
-#include "ProjectileEnemy.h"
+#include "ConcreteEnemy.h" //Enemigo concreto
+#include "MeleeEnemy.h" //Enemigo cuerpo a cuerpo
+#include "ProjectileEnemy.h" //Enemigo proyectil
 
 
 ADecoratorGameModeBase::ADecoratorGameModeBase()
