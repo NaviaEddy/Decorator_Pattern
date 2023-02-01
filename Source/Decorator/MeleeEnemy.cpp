@@ -21,7 +21,7 @@ void AMeleeEnemy::Die()
 {
 	//Llamar a la función matriz Die y registrar un mensaje
 	Super::Die();
-	GEngine->AddOnScreenDebugMessage(-1, 15.f, FColor::Yellow, FString::Printf(TEXT("El enemigo se retuerce en agonía y se desintegra")));
+	GEngine->AddOnScreenDebugMessage(-1, 15.f, FColor::Yellow, FString::Printf(TEXT("El enemigo se retuerce en agonia y se desintegra")));
 
 }
 

@@ -22,6 +22,6 @@ void AProjectileEnemy::Die()
 {
 	//Devuelve cuánto daño ha recibido este enemigo
 	Super::Die();
-	GEngine->AddOnScreenDebugMessage(-1, 15.f, FColor::Yellow, FString::Printf(TEXT("El enemigo se retuerce en agonía y se desintegra aun mas")));
+	GEngine->AddOnScreenDebugMessage(-1, 15.f, FColor::Yellow, FString::Printf(TEXT("El enemigo se retuerce en agonia y se desintegra aun mas")));
 
 }
